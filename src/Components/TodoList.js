@@ -77,7 +77,7 @@ const TodoList = () => {
             <option value="completed">Completed</option>
           </select>
           <div className="CountBlock">
-          <h3 style={{color:'black'}}>Count:{(tasks.length !=0 ? tasks.length : 0)}</h3>
+          <h3 style={{color:'black'}}>Items:{(tasks.length !==0 ? tasks.length : 0)}</h3>
           </div>
       </div>
 

@@ -4,7 +4,7 @@ import Button from './Button';
 import TodoList from './TodoList';
 
 const LightDark = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const handleToggle = () => {
     setIsDarkMode(!isDarkMode);
@@ -12,7 +12,7 @@ const LightDark = () => {
   };
 
   return (
-    <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
+    <div className={isDarkMode ? 'light-mode' : 'dark-mode'}>
       <div className="container">
      <div className='Head'>
      <h1>React Todo List</h1>

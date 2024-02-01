@@ -7,19 +7,19 @@
 .container {
   width: 100%;
   height: 100vh;
+  margin:40px 0;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 .container h1 {
   margin: 20px 0;
 }
 .listbox {
-  width: 400px;
-  height: 450px;
+  width: 350px;
+  height: auto;
   padding: 10px 0;
-  background-color: bisque;
+  background-color: lightgreen;
   box-shadow: 3px 2px 2px black;
   border-radius: 5px;
 }
@@ -99,7 +99,7 @@
   border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 1.5rem;
-  background-color: aliceblue;
+  background-color: lightgreen;
   color: mediumblue;
   cursor: pointer;
 }
@@ -132,7 +132,7 @@
   padding:5px 5px;
 }
 .TaskDiv .TaskField{
-  width:74.5%;
+  width:70%;
   display:flex;
   align-items: center;
 }
@@ -145,6 +145,7 @@
   margin-top:5px;
 }
 .CountBlock{
-  margin-left:150px;
+  margin-left:100px;
   margin-top:5px;
 }
+

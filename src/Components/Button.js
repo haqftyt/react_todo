@@ -5,7 +5,7 @@ import { FaSun, FaMoon } from 'react-icons/fa';
 const Button = ({ isDarkMode, onToggle }) => {
   return (
     <button className='darkLight'onClick={onToggle}>
-      {isDarkMode ? <FaSun style={{color:'white'}} /> : <FaMoon />}
+      {isDarkMode ? <FaSun style={{color:'black'}} /> : <FaMoon style={{color:'white'}} />}
     </button>
   );
 };
