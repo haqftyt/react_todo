@@ -12,16 +12,16 @@ const LightDark = () => {
   };
 
   return (
-    <div className={isDarkMode ? 'light-mode' : 'dark-mode'}>
-      <div className="container">
+    <div className={isDarkMode ? 'light-mode container' : 'dark-mode container'}>
      <div className='Head'>
+     <div style={{display:'flex'}}>
      <h1>React Todo List</h1>
       <Button  isDarkMode={isDarkMode} onToggle={handleToggle} />
+     </div>
      </div>
       <div className="listbox">
        <TodoList/>
       </div>
-    </div>
     </div>
   );
 };
